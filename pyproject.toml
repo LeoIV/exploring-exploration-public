@@ -1,0 +1,20 @@
+[project]
+name = "exploring-exploration"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Leonard Papenmeier",email = "leonard.papenmeier@posteo.de"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+packages = [
+    { include = "exploring_exploration",  from = "." },
+]
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
